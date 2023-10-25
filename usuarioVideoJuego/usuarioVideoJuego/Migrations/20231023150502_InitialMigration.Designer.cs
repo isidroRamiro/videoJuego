@@ -10,7 +10,7 @@ using usuarioVideoJuego.Contexto;
 
 namespace usuarioVideoJuego.Migrations
 {
-    [DbContext(typeof(appDatabase))]
+    [DbContext(typeof(AplicacionContexto))]
     [Migration("20231023150502_InitialMigration")]
     partial class InitialMigration
     {

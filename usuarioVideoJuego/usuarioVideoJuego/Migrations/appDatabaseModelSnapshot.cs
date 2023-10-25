@@ -9,7 +9,7 @@ using usuarioVideoJuego.Contexto;
 
 namespace usuarioVideoJuego.Migrations
 {
-    [DbContext(typeof(appDatabase))]
+    [DbContext(typeof(AplicacionContexto))]
     partial class appDatabaseModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

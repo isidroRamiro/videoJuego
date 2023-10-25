@@ -16,6 +16,6 @@ namespace usuarioVideoJuego.Modelo
         [ForeignKey("usuario")]
         public int Id_Usuario { get; set; }
 
-        public  usuario usuario { get; set; }
+      
     }
 }
