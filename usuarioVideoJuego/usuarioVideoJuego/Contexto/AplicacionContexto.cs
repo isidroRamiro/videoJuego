@@ -3,9 +3,9 @@ using usuarioVideoJuego.Modelo;
 
 namespace usuarioVideoJuego.Contexto
 {
-    public class appDatabase:DbContext
+    public class AplicacionContexto:DbContext
     {
-        public appDatabase(DbContextOptions<appDatabase> options)
+        public AplicacionContexto(DbContextOptions<AplicacionContexto> options)
            : base(options)
         {
 
